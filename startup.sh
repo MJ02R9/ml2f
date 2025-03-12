@@ -5,7 +5,7 @@ exec > /var/log/startup-script.log 2>&1
 
 # Definir la ruta donde se guardarán los archivos
 WORK_DIR="/opt/ml-project"
-USER="MJ02R9"
+USER="mj02r9"
 mkdir -p $WORK_DIR
 cd $WORK_DIR
 
