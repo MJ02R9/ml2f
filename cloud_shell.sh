@@ -1,5 +1,5 @@
 gcloud compute instances create ml-machine \
-    --project=jaar-project \
+    --project=airy-phalanx-453511-f0 \
     --zone=us-west4-b \
     --machine-type=n1-standard-4 \
     --network-interface=network-tier=STANDARD,stack-type=IPV4_ONLY,subnet=default \
@@ -28,6 +28,6 @@ printf 'agentsRule:\n  packageState: installed\n  version: latest\ninstanceFilte
 
 # Aplicar la política de Ops Agent a la instancia
 gcloud compute instances ops-agents policies create goog-ops-agent-v2-x86-template-1-4-0-us-west4-b \
-    --project=jaar-project \
+    --project=airy-phalanx-453511-f0 \
     --zone=us-west4-b \
     --file=config.yaml
