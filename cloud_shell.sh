@@ -6,7 +6,7 @@ gcloud compute instances create ml-machine \
     --metadata=enable-osconfig=TRUE,startup-script-url=https://raw.githubusercontent.com/jeffangel/ml2f/refs/heads/main/startup.sh \
     --maintenance-policy=TERMINATE \
     --provisioning-model=STANDARD \
-    --service-account=340196542567-compute@developer.gserviceaccount.com \
+    --service-account=995622741291-compute@developer.gserviceaccount.com \
     --scopes=https://www.googleapis.com/auth/devstorage.read_only,\
 https://www.googleapis.com/auth/logging.write,\
 https://www.googleapis.com/auth/monitoring.write,\
