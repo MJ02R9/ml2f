@@ -1,3 +1,4 @@
+meson
 wheel
 numpy
 scipy
